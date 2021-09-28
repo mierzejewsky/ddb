@@ -1,0 +1,57 @@
+{
+  "name": "ddb-importer",
+  "title": "D&D Beyond Importer",
+  "description": "Import your dndbeyond.com characters, spells, monsters, and adventures at super speed!",
+  "author": "MrPrimate",
+  "authors": [
+    {
+      "name": "MrPrimate",
+      "email": "jack@mrprimate.co.uk",
+      "url": "https://mrprimate.co.uk"
+    }
+  ],
+  "url": "https://github.com/mrprimate/ddb-importer",
+  "license": "MIT License",
+  "changelog": "https://github.com/MrPrimate/ddb-importer/blob/main/CHANGELOG.md",
+  "flags": {},
+  "version": "2.5.13",
+  "minimumCoreVersion": "0.8.8",
+  "compatibleCoreVersion": "0.8.9",
+  "scripts": [
+    "./vendor/jszip/jszip.min.js"
+  ],
+  "esmodules": [
+    "dist/main.js"
+  ],
+  "styles": [
+    "./css/default.css",
+    "./css/import.css",
+    "./css/journal.css",
+    "./css/notifications.css",
+    "./css/muncher.css",
+    "./css/adventure.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    }
+  ],
+  "packs": [],
+  "system": [
+    "dnd5e"
+  ],
+  "dependencies": [],
+  "socket": true,
+  "manifest": "https://github.com/mrprimate/ddb-importer/releases/download/latest/module.json",
+  "download": "https://github.com/mrprimate/ddb-importer/releases/download/2.5.13/ddb-importer.zip",
+  "protected": false,
+  "coreTranslation": false,
+  "library": false
+}
